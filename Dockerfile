@@ -12,7 +12,7 @@ RUN yum remove epel-release && \
         yum clean all
 
 # Yum install base packages
-RUN yum -y install https://centos7.iuscommunity.org/ius-release.rpm && \ 
+RUN yum -y install https://repo.ius.io/ius-release-el7.rpm && \ 
         yum -y install \
         git \
         nmap-ncat \
